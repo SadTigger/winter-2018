@@ -4,7 +4,7 @@
       .card
         .card-header
           h3
-            | Name: 
+            | Name:
             =@ingestion.name
         .card-body
           .form-group.row
@@ -17,5 +17,5 @@
            .col-sm-3.col-md-2.col-5 Time:
            .col-sm-7.col-xs-6 =@ingestion.time
 
-        = link_to '<button type="button">Edit</button>'.html_safe, edit_ingestion_path(@ingestion)
-        = link_to '<button type="button">Back</button>'.html_safe, ingestions_path
+        = link_to '<button type='button'>Edit</button>'.html_safe, edit_ingestion_path(@ingestion)
+        = link_to '<button type='button'>Back</button>'.html_safe, ingestions_path
